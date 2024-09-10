@@ -35,6 +35,25 @@ dependencies = [
 ]
 
 [[package]]
+name = "auth-rs"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "async-trait",
+ "axum-core",
+ "bytes",
+ "derive-new",
+ "futures-util",
+ "http",
+ "http-body",
+ "http-body-util",
+ "tokio",
+ "tower",
+ "tower-layer",
+ "tower-service",
+]
+
+[[package]]
 name = "autocfg"
 version = "1.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -242,25 +261,6 @@ name = "itoa"
 version = "1.0.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "49f1f14873335454500d59611f1cf4a4b0f786f9ac11f4312a78e4cf2566695b"
-
-[[package]]
-name = "lib-auth"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "async-trait",
- "axum-core",
- "bytes",
- "derive-new",
- "futures-util",
- "http",
- "http-body",
- "http-body-util",
- "tokio",
- "tower",
- "tower-layer",
- "tower-service",
-]
 
 [[package]]
 name = "libc"
